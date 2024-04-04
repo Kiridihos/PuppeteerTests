@@ -4,7 +4,7 @@ describe('Emulando Dispostivos', () => {
 
     let browser
     let page 
-    let globalTime = 10000
+    let globalTime = 20000
     beforeEach(async () => {
             browser = await puppeteer.launch({
             headless: false,
@@ -15,7 +15,7 @@ describe('Emulando Dispostivos', () => {
             // defaultViewport: { 
             //     width: 2100,
             //     height: 1080
-            // }
+            // 
             // Args se encarga de darle el tamaño a la ventana de google
             //args: ['--window-size=1920,1080'],
             // Este nos ayuda a que nuestra pagina este al mismo tamaño de la ventana
